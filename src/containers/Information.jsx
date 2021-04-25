@@ -36,7 +36,7 @@ const Information = (props) => {
           <form ref={form} action="">
             <input type="text" placeholder="Nombre Completo" name="name" />
             <input type="text" placeholder="Correo Electronico" name="email" />
-            <input type="text" placeholder="Direccion" name="Adress" />
+            <input type="text" placeholder="Direccion" name="address" />
             <input type="text" placeholder="apto" name="apto" />
             <input type="text" placeholder="Ciudad" name="city" />
             <input type="text" placeholder="Pais" name="country" />

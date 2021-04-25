@@ -13,7 +13,7 @@ const Header = () => {
       </h1>
       <div className="Header-checkout">
           <Link to="/checkout">
-            <i className="fas fa-shopping-basket" ></i>
+          <i className="fas fa-shopping-basket"></i>
           </Link>
           {
             cart.length>0 && (

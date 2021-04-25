@@ -20,7 +20,6 @@ const Payment = ({history}) => {
   }
   //↓ Lo usaremos cuando el pago se haga completado para registrar esa orden
   const handlePaymentSuccess = (data)=>{
-    console.log(data)
     if(data.status === 'COMPLETED'){
       const newOrder = {
         buyer,
