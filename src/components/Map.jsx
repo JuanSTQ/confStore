@@ -11,7 +11,7 @@ const Map = ({data}) => {
     lng: parseFloat(data.lng)
   } 
   return (
-    <LoadScript googleMapsApiKey={process.env.APIKEYGOOGLE}>
+    <LoadScript googleMapsApiKey='AIzaSyBBXNLc81kppB_WOPhXdW4B7WysjOk3spk'>
       <GoogleMap
         mapContainerStyle={mapStyle}
         zoom={17}

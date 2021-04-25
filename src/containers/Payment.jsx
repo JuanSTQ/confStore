@@ -10,7 +10,8 @@ const Payment = ({history}) => {
     
 
   const paypalOptions = {
-    clientId:String(process.env.APIKEY),
+    //clientId:String(process.env.APIKEY),
+    clientId: 'AcjYS0kexI_DBqHVc6XzABs1DXGol1LKsvlimA_XFlO3TFRWB4l9aUcEmrYNpH_pQ4D8gHQK-xh_cG1r',
     intent:'capture',
     currency:'USD'
   }
