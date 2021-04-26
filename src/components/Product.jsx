@@ -5,7 +5,7 @@ const Product = ({product}) => {
   const handleClick = (product)=>{
     addToCart(product)
   }
-
+ //`http://localhost:3006${product.image[0].url}`
   return (
       <div className="Products-item">
         <img src={product.image} alt={product.title}/>
